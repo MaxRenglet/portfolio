@@ -1,0 +1,15 @@
+.translate_3d {
+    &__lg {
+        transform: translate3d(0,calc(var(--translateYValue) * 1),0) scaley(1);
+    }
+    &__md {
+        transform: translate3d(0,calc(var(--translateYValue) * 2) ,0) scaley(2);
+    }
+     &__normal {
+        transform: translate3d(0,calc(var(--translateYValue) *1 ),0) scaley(1);
+     }
+}
+
+body {
+    @apply bg-black;
+}
